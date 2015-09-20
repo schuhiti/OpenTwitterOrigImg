@@ -1,0 +1,1 @@
+javascript:var link=$("a.media.media-thumbnail div img").attr("src"); if(link) { window.open(link+":orig"); } else { var l=new Array; $("div.permalink-tweet div.multi-photos").find("div.multi-photo img").each( function(){ var i=$(this).attr("src"); l.unshift(i+":orig"); }); for(var i=0; i<l.length; i++) { window.open(l[i]); } }
