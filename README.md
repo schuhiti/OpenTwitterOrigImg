@@ -1,10 +1,22 @@
 # OpenTwitterOrigImage #
 ## Bookmarklet for view original image files of Twitter
 
-You can open and view original size images in Twitter status unlike to click images.
+You can open and view images(original size) in Twitter status unlike to click images.
 
-�c�C�b�^�[��status�y�[�W�ɂ���S�Ẳ摜���A�I���W�i���T�C�Y�ŕʃE�B���h�E�ɊJ���܂��B
+ツイッターのstatusページにある全ての画像を、オリジナルサイズで別ウィンドウに開きます。
 
-�u�b�N�}�[�N���b�g�Ƃ��Ďg�p���ĉ�����
+ブックマークレットとして使用して下さい
 
-�c�C�b�^�[�̉摜���N���b�N���Ă������ȃT�C�Y�ł����\������Ȃ��̂ł����A�\������Ă���摜��url������:orig�ƕt����ƁA�ۑ�����Ă���ł��傫�ȃT�C�Y�̉摜�������܂��B
+ツイッター標準の動作だと、画像をクリックしても小さなサイズでしか表示されません。
+実のところ、表示されている画像のurl末尾に:origと付けると、保存されている最も大きなサイズの画像が見られます。
+
+この一連の動作をワンクリックで出来るようにしました。
+
+## 使い方
+openTwitterOrigImg.js をクリックして、「javascript:」から始まる行をコピーして「お気に入り」のURL欄に貼り付けてください。
+タイトルはopenTwitterOrigImgでも、適当にして下さい。
+
+開きたい画像のあるTwitterのstatusページで、先ほどのお気に入りを開こうとすると動作します。
+
+## 対応ブラウザ
+develop and check with Google Chrome 46.0.2490.71 m
