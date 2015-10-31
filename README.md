@@ -13,10 +13,12 @@ You can open and view images(original size) in Twitter status unlike to click im
 この一連の動作をワンクリックで出来るようにしました。
 
 ## 使い方
-openTwitterOrigImg.js をクリックして、「javascript:」から始まる行をコピーして「お気に入り」のURL欄に貼り付けてください。
-タイトルはopenTwitterOrigImgでも、適当にして下さい。
+### ブックマークに登録
+openTwitterOrigImg.js ファイルの内容をコピーして「お気に入り」のURL欄に貼り付けてください。
+タイトルはopenTwitterOrigImgなど、適当に入力しておいて下さい。
 
-開きたい画像のあるTwitterのstatusページで、先ほどのお気に入りを開こうとすると動作します。
+### 画像を開く
+開きたい画像のあるTwitterのstatusページで、先ほど登録したお気に入りを開こうとすると動作します。
 
 ## 対応ブラウザ
-develop and check with Google Chrome 46.0.2490.71 m
+develop and check with Google Chrome 46.0.2490.80 m
